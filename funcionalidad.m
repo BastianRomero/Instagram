@@ -70,6 +70,15 @@ function funcionalidad(opcion,nombre)
         final = [imag{1}; imag{2};imag{3}]; 
     elseif(opcion == 5)
         final = [imag{1} imag{2};imag{3} imag{4}];
+    elseif(opcion == 6)
+%         for i = 1:length(imag)
+%             imag{i} = imresize(imag{i},[500 200]);
+%         end
+        final = [imag{1} imag{3} imag{5};
+            imag{2} imag{4} imag{6}; 
+             imag{7} imag{9} imag{11};
+            imag{8} imag{10} imag{12}];
+        final = imresize(final,[1000 1000]);
     end
 
     end
