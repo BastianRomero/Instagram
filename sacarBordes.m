@@ -41,7 +41,7 @@ while k <= w
     [h,w] = size(i);
 end
    imagen =  cat(3,i,i2,i3);
-   imag{1} = imresize(imagen,[1000 1000]);
+%    imag{1} = imresize(imagen,[1000 1000]);
     imagenOut = imag{1};
 
 end 
