@@ -11,6 +11,7 @@ while respuesta == false
     fprintf("4- Unir 3 imagenes\n");
     fprintf("5- Unir 4 imagenes\n");
     fprintf("6- Unir 12 imagenes \n");
+    fprintf("Es solo un mensaje de prueba");
     opcion = input(pregunta,'s');
     entrada = opcion;
     opcion = str2double(opcion);
